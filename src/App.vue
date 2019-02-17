@@ -1,3 +1,5 @@
+
+
 <template>
   <div id="app">
       <index v-if="flag"></index>

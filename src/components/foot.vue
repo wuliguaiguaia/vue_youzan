@@ -2,25 +2,25 @@
   <div class="bottom-nav">
     <ul>
       <li>
-        <router-link to="/index">
+        <router-link :to="{name:'index'}">
           <i class="icon-home"></i>
           <span>有赞</span>
         </router-link>
       </li>
       <li>
-        <router-link to="/sort">
+        <router-link :to="{name:'sort'}">
           <i class="icon-category"></i>
           <span>分类</span>
         </router-link>
       </li>
       <li>
-        <router-link to="/shopcar">
+        <router-link :to="{name:'shopcar'}">
           <i class="icon-cart"></i>
           <span>购物车</span>
         </router-link>
       </li>
       <li>
-        <router-link to="/person">
+        <router-link :to="{name:'person'}">
           <i class="icon-user"></i>
           <span>我</span>
         </router-link>
@@ -29,12 +29,16 @@
   </div>
 </template>
 <script>
+import bus from "js/bus"
 export default {
   props:['title'],
   data(){
     return {
       myTitle:this.title
     }
+  },
+  created(){ 
+       console.dir(this.$parent.$data) 
   }
 };
 </script>

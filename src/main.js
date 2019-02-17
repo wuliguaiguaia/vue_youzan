@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from "./router"
 import store from "./store/address.js";
 import "css/common.scss";
-import "css/normal.scss"
 
 Vue.config.productionTip = false
 
@@ -11,4 +10,5 @@ new Vue({
   render: h => h(App),
   router,
   store
+  
 }).$mount('#app')

@@ -43,3 +43,41 @@
 [VUE中@scroll失败的真相](https://zhuanlan.zhihu.com/p/54287596)
 
 [vue 文档学习小结](https://zhuanlan.zhihu.com/p/53771830)
+
+
+
+
+<template>
+  <div id="app">
+      <index v-if="flag"></index>
+      <router-view v-else></router-view>
+  </div>
+</template>
+
+<script>
+import index from "page/index/index";
+export default {
+  name: "app",
+  data(){
+    return {
+      flag:true
+    }
+  },
+  components:{index},
+  watch:{
+    '$route'(val,oval){
+        this.flag = false;
+    }
+  }
+};
+</script>
+
+<style lang="scss">
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style>
