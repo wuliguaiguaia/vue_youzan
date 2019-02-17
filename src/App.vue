@@ -19,7 +19,8 @@ export default {
   components:{index},
   watch:{
     '$route'(val,oval){
-        this.flag = false;
+      console.log(1)
+      this.flag = false;
     }
   }
 };

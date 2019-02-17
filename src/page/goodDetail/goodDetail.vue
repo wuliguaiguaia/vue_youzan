@@ -1,7 +1,7 @@
 <template>
   <div class="body-fixed-bottom default-theme">
     <div v-if="GOOD" v-cloak>
-      <div class="container wap-goods internal-purchase" style="min-height: 617px;">
+      <div class="container wap-goods internal-purchase">
         <div class="content no-sidebar">
           <div class="content-body">
             <div>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <a class="js-package-buy-block hide"></a>
-            <div class="js-detail-container" style="margin-top: 10px;">
+            <div class="js-detail-container">
               <div class="js-tabber-container goods-detail">
                 <div class="js-tabber tabber tabber-n2 clearfix orange">
                   <button
@@ -123,10 +123,7 @@
             <div class="js-bottom-opts js-footer-auto-ele stick-bottom">
               <div class="stick-bottom-icons">
                 <a href="javascript:;" class="js-yz-im icons icons-im">店主</a>
-                <a
-                  href="https://h5.youzan.com/v2/showcase/homepage?kdt_id=16546132"
-                  class="js-call-im icons icons-home"
-                >店铺</a>
+                <a href class="js-call-im icons icons-home">店铺</a>
                 <a href="javascript:;" class="js-yz-zan icons icons-zan">收藏</a>
               </div>
               <div class="stick-bottom-btns">
@@ -139,32 +136,21 @@
                 </div>
               </div>
             </div>
-            <!-- <div id="right-icon" class="js-right-icon hide">
-          <div class="js-right-icon-container right-icon-container clearfix">
-            <a id="global-cart" href="https://h5.youzan.com/v2/trade/cart?kdt_id=16546132" class="icon hide" style="">
-              <p class="icon-img"></p>
-              <p class="icon-txt">购物车</p>
-            </a>
-            <a class="js-show-more-btn icon show-more-btn hide"></a>
-          </div>
-            </div>-->
             <div id="right-icon" class="js-right-icon">
               <div class="js-right-icon-container right-icon-container clearfix">
-                <a id="global-cart" href class="icon new s0" style>
-                  <p class="icon-img"></p>
-                  <p class="icon-txt">购物车</p>
+                <a id="global-cart" href class="icon new s0" >
+                  <p class="icon-img" @click="$router.push({name:'shopcar'})"></p>
                 </a>
                 <a class="js-show-more-btn icon show-more-btn"></a>
               </div>
             </div>
             <div class="js-recommend">
-              <p class="center font-size-14 c-black" style="padding: 5px 0;margin-top: 10px;">更多精选商品</p>
+              <p class="center font-size-14 c-black">更多精选商品</p>
               <div class="js-recommend-goods-list">
                 <ul
                   class="js-goods-list sc-goods-list pic clearfix size-1"
                   data-size="1"
                   data-showtype="card"
-                  style="visibility: visible;"
                 >
                   <!-- 商品区域 -->
                   <!-- 展现类型判断 -->
@@ -186,7 +172,6 @@
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/11/FoN0SazpvslhoiiyuHETeyWHqzTE.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/11/FoN0SazpvslhoiiyuHETeyWHqzTE.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -201,7 +186,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/2g06s483u55no"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="342718779"
@@ -211,13 +196,11 @@
                         class="photo-block"
                         data-width="0"
                         data-height="0"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/04/FidWCdQxsEMojh63W8GK016mwPAo.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/04/FidWCdQxsEMojh63W8GK016mwPAo.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -232,7 +215,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/1y8wz9sm8da8k"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="342676309"
@@ -242,13 +225,11 @@
                         class="photo-block"
                         data-width="750"
                         data-height="750"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/04/Fq1yXSOb84HmElu-Qgrm65EmAeIz.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/04/Fq1yXSOb84HmElu-Qgrm65EmAeIz.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -263,7 +244,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/27082kgcgmrqs"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="342108270"
@@ -273,13 +254,11 @@
                         class="photo-block"
                         data-width="800"
                         data-height="800"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FhxXtAXp1pEauruMKjw2QZCuCjbQ.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/12/FhxXtAXp1pEauruMKjw2QZCuCjbQ.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -294,7 +273,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/2fnugsg7z7xo4"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="341654863"
@@ -304,13 +283,11 @@
                         class="photo-block"
                         data-width="800"
                         data-height="800"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FvDOdNLYTkgPg8_LC16vBTKUkpDp.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/12/FvDOdNLYTkgPg8_LC16vBTKUkpDp.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -325,7 +302,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/2ocrgu7fw6dic"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="340716475"
@@ -335,13 +312,11 @@
                         class="photo-block"
                         data-width="0"
                         data-height="0"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/06/14/FlAhOUgjHk6uwBhTmMW95hHPlVJh.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/06/14/FlAhOUgjHk6uwBhTmMW95hHPlVJh.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -356,7 +331,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/365anhqcodi84"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="339552343"
@@ -366,13 +341,11 @@
                         class="photo-block"
                         data-width="0"
                         data-height="0"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/06/02/FlFNqGPuFKS_DlTAoJTcX9VEDv_4.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/06/02/FlFNqGPuFKS_DlTAoJTcX9VEDv_4.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -387,7 +360,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/3f2rgi8pm8xgk"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="339441682"
@@ -397,13 +370,11 @@
                         class="photo-block"
                         data-width="800"
                         data-height="800"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/Fh2E3KeB4j0rAOdILQAC52F_B4hb.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/12/Fh2E3KeB4j0rAOdILQAC52F_B4hb.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -418,7 +389,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/273xg8phauxvo"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="339414742"
@@ -428,13 +399,11 @@
                         class="photo-block"
                         data-width="1080"
                         data-height="1080"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FuDDKJmd-yfvmaDUfk-PO-yETRwZ.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/12/FuDDKJmd-yfvmaDUfk-PO-yETRwZ.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -449,7 +418,7 @@
                   </li>
                   <li class="js-goods-card goods-card small-pic card">
                     <a
-                      href="https://h5.youzan.com/v2/goods/36a5xxtuihz10"
+                      href
                       class="js-goods link clearfix"
                       target="_blank"
                       data-goods-id="338917983"
@@ -459,13 +428,11 @@
                         class="photo-block"
                         data-width="800"
                         data-height="800"
-                        style="background-color: rgb(255, 255, 255);"
                       >
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FoCENpKklzLyD5VpWVEtS0_jbGc8.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
                           src="https://img.yzcdn.cn/upload_files/2017/07/12/FoCENpKklzLyD5VpWVEtS0_jbGc8.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
-                          style
                         >
                       </div>
                       <div class="info clearfix info-title info-price btn0">
@@ -480,11 +447,10 @@
                   </li>
                 </ul>
               </div>
-              <p class="center" style="margin: 10px 0 20px;">
+              <p class="center">
                 <a
-                  href="https://h5.youzan.com/v2/showcase/homepage?kdt_id=16546132"
+                  href
                   class="center btn btn-white btn-xsmall font-size-14"
-                  style="padding:8px 26px;"
                 >进店逛逛&gt;</a>
               </p>
             </div>
@@ -492,21 +458,15 @@
           <div id="shop-nav"></div>
         </div>
       </div>
-      <div class="js-footer" style="min-height: 1px;">
+      <div class="js-footer" >
         <div>
           <div class="footer">
             <div class="copyright">
               <div class="ft-links">
-                <a
-                  href="https://h5.youzan.com/v2/showcase/homepage?kdt_id=16546132"
-                  target="_blank"
-                >店铺主页</a>
-                <a
-                  href="https://h5.youzan.com/v2/showcase/usercenter?kdt_id=16546132"
-                  target="_blank"
-                >会员中心</a>
+                <a href target="_blank">店铺主页</a>
+                <a href target="_blank">会员中心</a>
                 <a href="javascript:;" class="js-open-follow">关注我们</a>
-                <a href="https://h5.youzan.com/v2/showcase/cert" target="_blank">店铺信息</a>
+                <a href target="_blank">店铺信息</a>
                 <!-- 第三方app隐藏topbar时，需要在底部显示购物记录入口 -->
               </div>
               <div
@@ -532,13 +492,12 @@
       </div>-->
       <!-- mask -->
       <transition name="fade">
-      <div
-        id="yFzBKP9GDL"
-        v-show="showSku"
-        @click="showSku = false"
-        style="height: 100%; position: fixed; top: 0px; left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.7); z-index: 1000;"
-      ></div>
-
+        <div
+          id="yFzBKP9GDL"
+          v-show="showSku"
+          @click="showSku = false"
+          style="height: 100%; position: fixed; top: 0px; left: 0px; right: 0px; background-color: rgba(0, 0, 0, 0.7); z-index: 1000;"
+        ></div>
       </transition>
       <!-- sku 1 -->
       <transition name="skutoggle" tag="div">
@@ -569,18 +528,7 @@
               <div class="cancel-img"></div>
             </div>
           </div>
-          <div
-            class="sku-detail adv-opts hotel-checkin-select"
-            style="border: none; margin: 0; display: none;"
-          >
-            <div class="sku-detail-inner adv-opts-inner-addons">
-              <dl class="sku-group select-sku js-select-checkin-date">
-                <dt>时间：</dt>
-                <dd class="js-checkin-date-value">选择入住时间</dd>
-              </dl>
-            </div>
-          </div>
-          <div class="adv-opts layout-content" style="max-height: 554px;">
+          <div class="adv-opts layout-content">
             <div class="goods-models js-sku-views block block-list border-top-0">
               <dl class="clearfix block-item sku-list-container">
                 <dt class="model-title sku-sel-title">
@@ -607,11 +555,7 @@
                     </div>
                   </dl>
                 </dd>
-                <dt class="other-info">
-                  <div class="stock">剩余450件</div>
-                </dt>
               </dl>
-              <div class="block-item block-item-messages" style="display: none;"></div>
             </div>
             <!-- <div class="bottom-padding"></div> -->
             <div class="confirm-action content-foot clearfix">
@@ -690,12 +634,12 @@ export default {
         this.GOOD = res.data.data;
         let bannerLists = res.data.data.imgs;
         this.goodbannerList = [];
-        bannerLists.forEach((item,i) => {
+        bannerLists.forEach((item, i) => {
           let url = "";
           if (!bannerLists[i].clickUrl) {
             url = "";
           }
-          this.goodbannerList.push({img:item,clickUrl:url});
+          this.goodbannerList.push({ img: item, clickUrl: url });
         });
       });
     },
@@ -707,7 +651,7 @@ export default {
     },
     getGOODDeals() {
       axios.post(URL.goodDeals, { id: this.id }).then(res => {
-        this.goodDeals = res.data.data.lists;
+        this.goodDeals = res.data.lists;
       });
     },
     addCart() {
@@ -716,21 +660,39 @@ export default {
       setTimeout(() => {
         this.isShowAddcarNotice = false;
       }, 500);
-    }
+    },
+    buyGoods() {}
   }
 };
 </script>
 
 <style lang="scss" scoped>
-@import url("./transition.scss");
-@import url("./goods_common.scss");
+// @import url("./transition.scss");
+// @import url("./goods_common.scss");
 @import url("./goods_custom.scss");
 @import url("./goods.scss");
-@import url("./goods_theme.scss");
+// @import url("./goods_theme.scss");
 @import url("./goods_mars.scss");
 @import url("./goods_sku.scss");
 
 .motify {
   display: block;
 }
+
+.sku-layout .sku-sel-title {
+  float: left;
+}
+#global-cart.new .icon-img {
+  position: fixed;
+    bottom: 66px;
+    right: 22px;
+    z-index: 999;
+  background-position: 0 0;
+  background-image: url(https://b.yzcdn.cn/v2/image/yzapp/h5/cart1@2x.png);
+  background-size: 100% 100%;
+  height: 50px;
+  width: 50px;
+}
+ 
+ 
 </style>

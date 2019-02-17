@@ -9,7 +9,6 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-@import url('./address_base.scss');
 @import url('./address.scss');
 .slide-enter{
   transform:translateX(-100%);

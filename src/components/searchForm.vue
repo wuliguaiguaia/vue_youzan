@@ -5,10 +5,9 @@
         <input
           type="search"
           class="custom-search-input"
-          autocomplete="off"
           v-model="searchValue"
-          @focus="focus = true"
-          @blur="focus = false"
+          @focus="focusInput"
+          @blur="blurInput"
           :placeholder="searchForm.placeholder"
         >
         <span class="icon-custom-search"></span>
@@ -18,7 +17,7 @@
         @click="showNavBtn"
         v-show="focus || searchValue"
       >{{searchForm.button}}</button>
-      <span class="cancel" v-show="focus || searchValue" @click="searchValue=''">取消</span>
+      <span class="cancel" v-show="focus || searchValue" @click="goSort">取消</span>
       <div class="search-type-dropdown-menu" v-show="showNavButton">
         <span class="search-type-dropdown-menu-indicator">
           <i></i>
@@ -37,13 +36,13 @@
       </div>
     </div>
     <div class="search-content">
-        <!-- 历史搜索 待做-->
+      <!-- 历史搜索 待做-->
     </div>
   </div>
 </template>
 <script>
 export default {
-  props: ['showId'],
+  props: ["showId"],
   data() {
     return {
       focus: false,
@@ -54,38 +53,45 @@ export default {
         placeholder: "搜索更赞的商品",
         button: "商品"
       },
-      id:0,
+      id: 0
     };
   },
 
-  mounted(){
-    if(this.showId){
-      this.id = this.showId
-    }else if(this.$route.query.showId){
+  mounted() {
+    if (this.showId) {
+      this.id = this.showId;
+    } else if (this.$route.query.showId) {
       this.id = this.$route.query.showId;
-    }else{
-      this.id = 0
+    } else {
+      this.id = 0;
     }
-    this.searchValue =  this.$route.query.keyword;
+    this.searchValue = this.$route.query.keyword;
   },
-  watch:{
-    id(val){
-        if(val == 0){
-          this.chooseGoods()
-        }else{
-          this.chooseShops()
-        }
+  watch: {
+    id(val) {
+      if (val == 0) {
+        this.chooseGoods();
+      } else {
+        this.chooseShops();
+      }
     },
-    searchValue(val){
-      if(val && val.trim()){
-        this.focus = true
+    searchValue(val) {
+      if (val && val.trim()) {
+        this.focus = true;
       }
     }
   },
   methods: {
-    showNavBtn(){
-      console.log(this.showNavButton );
-      
+    focusInput() {
+      this.focus = true;
+      this.$router.push({ name: "search" });
+    },
+    blurInput() {
+      // this.focus = false;
+    },
+    showNavBtn() {
+      console.log(this.showNavButton);
+
       this.showNavButton = true;
     },
     submit(e) {
@@ -126,6 +132,11 @@ export default {
           query: { showId: this.id, keyword: this.searchValue }
         });
       }
+    },
+    goSort() {
+      console.log("go sort");
+      this.searchValue = "";
+      this.$router.push({ name: "sort" });
     }
   }
 };

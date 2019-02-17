@@ -3,8 +3,6 @@
 .btn-3-1 {
   display: inline-block;
   padding: 0 3px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -15,8 +13,6 @@
 .btn-3-1 .tag,
 .btn-3-1 .btn {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -68,15 +64,6 @@
   position: relative;
   margin-bottom: 10px;
   border-bottom: 2px solid #e5e5e5
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3 / 2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .popout-box .header {
-    border-bottom-width: 1px
-  }
 }
 
 .popout-box .header h2 {
@@ -225,15 +212,6 @@ body {
   border-bottom: 2px solid #e5e5e5
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3 / 2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .section {
-    border-top-width: 1px;
-    border-bottom-width: 1px
-  }
-}
 
 .secondary {
   font-size: 12px;
@@ -268,18 +246,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .stick-bottom-row.block {
-   border-top: 2px solid #e5e5e5;
+  border-top: 2px solid #e5e5e5;
   background-color: #fff
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3 / 2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .stick-bottom-row.block {
-    border-top-width: 1px
-  }
-}
 
 .stick-bottom-row .btn {
   float: right;
@@ -313,15 +283,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   border-right: 2px solid #e5e5e5
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3 / 2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .split-right {
-    border-right-width: 1px
-  }
-}
-
 .form {
   width: 100%;
   margin: 0;
@@ -330,8 +291,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding-right: 10px;
   list-style: none;
   font-size: 14px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -379,8 +338,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .form .block-item textarea {
   height: 50px;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   resize: none
 }
@@ -401,8 +358,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding-left: 30px;
   border: 1px solid #e5e5e5;
   border-radius: 4px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   outline-width: 0px;
   font-size: 14px
@@ -454,9 +409,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   margin-left: 3px;
   width: 2px;
   height: 7px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   background-color: #a3a3a3
 }
@@ -469,9 +421,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   width: 40px;
   border-radius: 100px;
   background: #a3a3a3;
-  -webkit-transform: scale(0.42);
-  -moz-transform: scale(0.42);
-  -ms-transform: scale(0.42);
   transform: scale(0.42);
   -webkit-tap-highlight-color: transparent
 }
@@ -487,16 +436,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
   position: absolute;
   top: 17px;
   left: 6px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg)
 }
 
 .search-form .close-icon::after {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg)
 }
 
@@ -564,8 +507,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   line-height: 30px;
   font-size: 14px;
   border: 1px solid #666;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -584,7 +525,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   background-image: url("https://b.yzcdn.cn/v2/image/pf/icon/uncheck.png")
 }
 
-.address-list .address-item .check.checked{
+.address-list .address-item .check.checked {
   background-image: url("https://b.yzcdn.cn/v2/image/pf/icon/check.png")
 }
 
@@ -614,7 +555,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   position: relative
 }
 
- 
+
 
 .address-list p {
   color: #666
@@ -667,14 +608,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   margin-left: 10px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3 / 2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .item-info {
-    border-top-width: 1px
-  }
-}
 
 .item-info.right-arrow::after {
   content: '';
