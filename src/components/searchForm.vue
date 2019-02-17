@@ -15,7 +15,7 @@
       </form>
       <button
         class="custom-search-type-selection-btn custom-search-type-selection-btn-focus"
-        @click="showNavButton = true;focus=true"
+        @click="showNavBtn"
         v-show="focus || searchValue"
       >{{searchForm.button}}</button>
       <span class="cancel" v-show="focus || searchValue" @click="searchValue=''">取消</span>
@@ -83,6 +83,11 @@ export default {
     }
   },
   methods: {
+    showNavBtn(){
+      console.log(this.showNavButton );
+      
+      this.showNavButton = true;
+    },
     submit(e) {
       e.preventDefault();
       if (this.searchValue.trim()) {
