@@ -33,7 +33,7 @@
                   <div class="hot-title">
                     <p class="pull-left">热销商品榜</p>
                     <a
-                      href="https://maijia.youzan.com/mars/rank/hotgoods"
+                      href="#"
                       class="pull-right icon-right"
                     >更多</a>
                   </div>
@@ -722,9 +722,7 @@ img {
   border-style: solid;
   border-color: #d9d9d9 #d9d9d9 #d9d9d9 transparent;
   box-shadow: 0 0 0 1px transparent;
-  -webkit-animation: loader 0.8s linear;
   animation: loader 0.8s linear;
-  -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
@@ -734,7 +732,6 @@ img {
   color: #ccc;
   left: 50%;
   position: absolute;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 80%;
   text-align: center;
@@ -946,9 +943,7 @@ img {
   box-sizing: border-box;
   width: 200%;
   height: 200%;
-  -webkit-transform: scale(0.5);
   transform: scale(0.5);
-  -webkit-transform-origin: left top;
   transform-origin: left top;
   pointer-events: none;
   border: 1px solid #ccc;
@@ -1100,18 +1095,6 @@ img {
 .hot-shop-wrap .icon-top3 {
   background-image: url("/v2/image/yzapp/h5/TOP3@2x.png");
 }
-
-@-webkit-keyframes loader {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-
 @keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);

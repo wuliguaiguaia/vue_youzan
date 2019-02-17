@@ -16,10 +16,11 @@ import pay from "@/page/pay/pay";
 Vue.use(Router);
 
 export default new Router({
-    mode: "history",
+    // mode: "history",
     routes: [{
         path: "/",
-        redirect: "/index"
+        component: index,
+        name: "index"
     }, {
         path: "/index",
         component: index,
