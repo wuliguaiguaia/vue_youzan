@@ -74,7 +74,8 @@
   </div>
 </template>
 <script>
-import foot from "@/components/foot";
+import foot from "components/foot";
+import swiper from "components/swiper";
 
 import axios from "axios";
 import URL from "js/api.js";
@@ -82,7 +83,6 @@ import Vue from "vue";
 import { InfiniteScroll } from "mint-ui";
 Vue.use(InfiniteScroll);
 
-import swiper from "components/swiper";
 
 export default {
   data() {
