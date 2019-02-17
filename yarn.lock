@@ -805,7 +805,7 @@
   resolved "http://registry.npm.taobao.org/@vue/cli-overlay/download/@vue/cli-overlay-3.4.0.tgz#7fe7cf41eacbaf1f1579efcad93e23b65d4581db"
   integrity sha1-f+fPQerLrx8Vee/K2T4jtl1Fgds=
 
-"@vue/cli-plugin-babel@^3.4.0":
+"@vue/cli-plugin-babel@^3.3.0":
   version "3.4.0"
   resolved "http://registry.npm.taobao.org/@vue/cli-plugin-babel/download/@vue/cli-plugin-babel-3.4.0.tgz#d6e7967995f860b94204bdfb17900fadd4aea2d9"
   integrity sha1-1ueWeZX4YLlCBL37F5APrdSuotk=
@@ -816,7 +816,7 @@
     babel-loader "^8.0.5"
     webpack ">=4 < 4.29"
 
-"@vue/cli-plugin-eslint@^3.4.0":
+"@vue/cli-plugin-eslint@^3.3.0":
   version "3.4.0"
   resolved "http://registry.npm.taobao.org/@vue/cli-plugin-eslint/download/@vue/cli-plugin-eslint-3.4.0.tgz#e9fceff873661848be7e1341b31dad23302cd0ac"
   integrity sha1-6fzv+HNmGEi+fhNBsx2tIzAs0Kw=
@@ -829,7 +829,7 @@
     globby "^9.0.0"
     webpack ">=4 < 4.29"
 
-"@vue/cli-service@^3.4.0":
+"@vue/cli-service@^3.3.0":
   version "3.4.0"
   resolved "http://registry.npm.taobao.org/@vue/cli-service/download/@vue/cli-service-3.4.0.tgz#d2160ee4cf9de8dc4e9d780ccd61cc15862f2950"
   integrity sha1-0hYO5M+d6NxOnXgMzWHMFYYvKVA=
@@ -8152,12 +8152,12 @@ vue-template-es2015-compiler@^1.8.2:
   resolved "http://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.8.2.tgz#dd73e80ba58bb65dd7a8aa2aeef6089cf6116f2a"
   integrity sha1-3XPoC6WLtl3XqKoq7vYInPYRbyo=
 
-vue@^2.5.22:
+vue@^2.5.21:
   version "2.6.6"
   resolved "http://registry.npm.taobao.org/vue/download/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
   integrity sha1-3eQeSDwRxGp79SOQn08vgWq2DSU=
 
-vuex@^3.0.1:
+vuex@^3.1.0:
   version "3.1.0"
   resolved "http://registry.npm.taobao.org/vuex/download/vuex-3.1.0.tgz#634b81515cf0cfe976bd1ffe9601755e51f843b9"
   integrity sha1-Y0uBUVzwz+l2vR/+lgF1XlH4Q7k=
