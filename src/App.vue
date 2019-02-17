@@ -17,10 +17,7 @@ export default {
   components:{index},
   watch:{
     '$route'(val,oval){
-      if(val.path !== oval.path){
         this.flag = false;
-      }
-      
     }
   }
 };
