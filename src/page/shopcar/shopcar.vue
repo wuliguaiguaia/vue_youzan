@@ -500,8 +500,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url("./cart_base.scss");
-@import url("./cart_trade.scss");
 @import url("./cart.scss");
 .content {
 }

@@ -1,0 +1,127 @@
+// .wakeup-app {
+//     position: fixed;
+//     top: -60px;
+//     left: 0;
+//     z-index: 5;
+//     background-color: #ececec;
+//     width: 100%;
+//     height: 60px;
+//     cursor: pointer;
+//     text-align: center;
+//     overflow: hidden;
+//     transition: all 0.5s linear;
+  
+//     .close {
+//       float: left;
+//       width: 40px;
+//       height: 60px;
+//       position: relative;
+//       cursor: pointer;
+//       &::after {
+//         position: absolute;
+//         display: block;
+//         content: "\D7";
+//         width: 18px;
+//         height: 18px;
+//         font-size: 14px;
+//         line-height: 16px;
+//         border-radius: 9px;
+//         color: #fff;
+//         background-color: #dddedf;
+//         top: 50%;
+//         left: 50%;
+//         margin-top: -9px;
+//         margin-left: -9px;
+//       }
+//     }
+//     .app-icon {
+//       float: left;
+//       width: 60px;
+//       height: 60px;
+//       background-image: url(/v2/image/wap/weixin_share_default_logo.png);
+//       background-size: 80% 80%;
+//       background-repeat: no-repeat;
+//       background-position: 50%;
+//     }
+//     .description {
+//       float: left;
+//       text-align: left;
+//       padding: 5px 0 5px 3px;
+//       .title {
+//         margin: 6px 0;
+//         font-size: 15px;
+//         line-height: 18px;
+//         font-weight: 400;
+//       }
+//       .meta {
+//         color: #999;
+//         line-height: 1;
+//         font-size: 12px;
+//         letter-spacing: 1px;
+//       }
+//     }
+//     .btn {
+//       float: right;
+//       margin-top: 12px;
+//       margin-right: 12px;
+//       padding: 8px;
+//       border-color: #fc5959;
+//       background-color: #fc5959;
+//       letter-spacing: 1px;
+//     }
+//   }
+  
+//   .wakeup-app-mask {
+//     position: fixed;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 5;
+//     background-color: #000;
+//     opacity: 0.8;
+//     z-index: 6;
+//   }
+  
+//   .wakeup-app-opentip {
+//     position: fixed;
+//     height: 144px;
+//     top: 0;
+//     left: 10px;
+//     right: 10px;
+//     z-index: 7;
+//     .lay {
+//       width: 100%;
+//       height: 120px;
+//       background-color: #f9f9f9;
+//       border-radius: 0 0 8px 8px;
+//       background: #f9f9f9 url(/v2/image/wap/opentip.png) 100% 4px no-repeat;
+//       background-size: 127px auto;
+//     }
+//     .note {
+//       float: right;
+//       margin: 39px 58px 0 0;
+//       width: 160px;
+//       line-height: 20px;
+//       h3 {
+//         font-size: 20px;
+//         margin-bottom: 6px;
+//         font-weight: 400;
+//       }
+//       p {
+//         font-size: 14px;
+//       }
+//     }
+//   }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .container {
+    background-color: #f4f4f4;
+  }
+  

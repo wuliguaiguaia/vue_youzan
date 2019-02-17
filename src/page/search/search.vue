@@ -377,8 +377,6 @@ export default {
   bottom: 0;
   background-color: #fff;
   z-index: 999;
-  -o-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2
-    stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2
     stretch;
   border-top: 2px solid #e5e5e5;
@@ -470,42 +468,7 @@ export default {
 .bottom-nav .active .icon-user {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAABGdBTUEAALGPC/xhBQAABLNJREFUeAHtW0toE1EUnZekrfVT1IVWqS1CiwvFLir4wUItCEI3Wp02deVOcFEUVyJCFn5WRdCFC0FQEZtEW0EFF4IFPxutohZ1UXGhbaB+UCm2zWee545BsFhyZ3JnGHEehCaZM+fce3Lnzbw7U8MIR+hA6EDoQOhA6ADXAcUFSuAShhE5appbjEhkp6FUCzhXIoCVxK0NYxx/xg2thw3LunEinX6UMAyLtvkxfDHiXVvbvLoVK3ohdhhJLWMmNgFz+j5kMmdWDw1NM/dxDfPciHxX125UwGlUwCpXUWr9HhVyKJZKXXe1P3OnCBPnBqZy8fgJIxq95toEUiUDwWFz4ZObQDj7eEWs8vH4VSTRzQmCjdE6Gevv7wEeR43s8KQi8OsdFzeB8oaxNresBzabeEXYcwIdDl6OQmGP9JwhWhF0drAnRi9NIG5MvraWoI6oEXSKtCc3wQD/SoUJ1Nb660Z3X4oZkcDvhOOMrhN8GaSVgKaUmNgckTPNrSoWuy8VGIdH5/OtFen0Aw62FEbMUfuyuZSa9Ha6VBcackb8WjsIhcWkEdSUM6K4eGKmIAWzF2wSZGJGYLIRC4qbmKSmmBHc4EVxSoldaosZUewniOZZikxrnSmF4W4XMwKC1Fjxe4hpyhlBnSW/h6CmnBFor/ntA7X0pDTFjKAeI4KakAqMwTNR1GRAS0PEjEig0Uo9xtKSMgjSIk0ZNsFFCwVEjVZ0od9LBTcnDzRsrTkBzjeIVQRJ291mNFqdh+FwD2hId7ZFjaB0qHOE8/tJh6mx4cQt3Z0icbFl+KxMwuZt0RBN3WbJyrArwaMOtpcV8btA/pUbPF4dGr+NoDfhLb8/7DCMBE7XQb0JPCvU8GPoQOjALwc8nSwnTHPhkmh0I9YFa5XW9bj504BXPd7TMxLVeF+NS/L5xR9jGp9n8Hka+M/4bkwpNYbT5pil9Rt893heMvm2iBX/I2rEvba2WOvy5TuQUAcC3wzydXgfFYta6y/gfYLXnVw2279gYECsQyViRLa7uxlE+1QkshdJc5+IKdcfFIq+p5W6/DCTubJtaChfDmFZRvzo7KyrrKzsw6/eVU4Q5e4LQ16jSdNbkUrddcvlygg6BLbW1h7GMXwMwgvcikvvB0MGpwuF/YvS6Y9OuR0b8aSlpaK5qSkJE3Y5FfMDj/nj5dTkZHvNzZufnOg5MqJYCWRCpxMRv7GojBdTMzPtNYODdPZhDUf9iNba2otBN4GyRozrq6uqbiUcdODYFYGHw3ZBYYBlb0BAlmUdqEwmz3HCYVcETlOnOIRBwkSUOpIyTdZ1DMuIXE9PO0pnTZCSZMWCR4w6o9EdHCzLCBB1cMiCiEElb+fExTNC6y0cskBitN7EiYtlBGbhBg5ZEDE4pFnPgLOMQIJLgpgkKyallnJwXCO+c8gCidH6KyculhG4UhvhkAURg8nyKSculhFoltzmkAURowqF85y4WEY8Hx09i8XMKw5hkDCo5Du4Pch6hoJlxIbh4ZyVze4G8bMgJVoilvT3b9/Y/y/CXmuQqL0Eb2w8iDWHiVNqE75aXCIYvzd/RuWOaMu6gDXGJb/FQ73QgdCB0IHQgf/FgZ+UQn2ZrGr7bgAAAABJRU5ErkJggg==");
 }
-
-::-webkit-scrollbar {
-  display: none;
-}
-
-body,
-html {
-  -webkit-tap-highlight-color: transparent;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.container {
-  background-color: #f4f4f4;
-}
-
-.center-img {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  width: 60px;
-  height: 60px;
-}
-
-.center-img img {
-  max-width: 100%;
-  max-height: 100%;
-  border: 0;
-  vertical-align: middle;
-}
-
+ 
 .goods-item {
   background: #fff;
 }
@@ -696,7 +659,6 @@ img {
   margin-left: 115px;
   box-sizing: border-box;
   padding: 10px 15px 0 0;
-  -o-border-image: url("/v2/image/wap/border-line.png") 2 stretch;
   border-image: url("/v2/image/wap/border-line.png") 2 stretch;
   border-bottom: 2px solid #fe6573;
 }
@@ -713,8 +675,6 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   margin-bottom: 20px;
   font-size: 16px;
 }
@@ -729,7 +689,6 @@ img {
   padding-top: 10px;
   margin-top: 20px;
   background-color: #fff;
-  -o-border-image: url("/v2/image/wap/border-line.png") 2 stretch;
   border-image: url("/v2/image/wap/border-line.png") 2 stretch;
   border-top: 2px solid #fe6573;
   border-bottom: 2px solid #fe6573;
@@ -875,9 +834,7 @@ img {
   box-sizing: border-box;
   width: 200%;
   height: 200%;
-  -webkit-transform: scale(0.5);
   transform: scale(0.5);
-  -webkit-transform-origin: left top;
   transform-origin: left top;
   border: 1px solid #fe6573;
 }
@@ -935,7 +892,6 @@ img {
   background-color: #55bd47;
   margin-bottom: 15px;
   position: relative;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .membercards-list-block .avatar {
@@ -979,9 +935,7 @@ img {
   box-sizing: border-box;
   width: 200%;
   height: 200%;
-  -webkit-transform: scale(0.5);
   transform: scale(0.5);
-  -webkit-transform-origin: left top;
   transform-origin: left top;
   pointer-events: none;
   border: 1px solid #fff;

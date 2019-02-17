@@ -2,7 +2,7 @@
   <div class="bottom-nav">
     <ul>
       <li>
-        <router-link to="/index" class="router-link-exact-active ">
+        <router-link to="/index">
           <i class="icon-home"></i>
           <span>有赞</span>
         </router-link>
