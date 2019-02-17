@@ -4,20 +4,11 @@
   padding: 10px;
   line-height: 1.5;
   border: 0;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-top: 2px solid #e5e5e5;
   overflow: hidden
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .block-item {
-    border-top-width: 1px
-  }
-}
+ 
 
 .block-item .btn-auth-code {
   position: absolute;
@@ -57,8 +48,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .block {
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-top: 2px solid #e5e5e5;
   border-bottom: 2px solid #e5e5e5;
@@ -69,15 +58,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   position: relative;
   font-size: 14px
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .block {
-    border-top-width: 1px;
-    border-bottom-width: 1px
-  }
-}
+ 
 
 .block.top-0 {
   margin-top: 0
@@ -125,8 +106,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding-left: 10px;
   list-style: none;
   font-size: 14px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -154,16 +133,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .block.block-list+.block.block-list {
   margin-top: 12px
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3 / 2),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .block.block-list li span.clear {
-    background: url("/v2/image/wap/icon_clear@2x.png") center center no-repeat;
-    background-size: 100%
-  }
-}
+ 
 
 .form {
   width: 100%;
@@ -173,8 +143,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding-right: 10px;
   list-style: none;
   font-size: 14px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -231,8 +199,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .form .block-item textarea {
   height: 50px;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   resize: none
 }
@@ -269,19 +235,11 @@ body.has-bottom-nav {
   bottom: 0;
   background-color: #fff;
   z-index: 999;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-top: 2px solid #e5e5e5
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .mj-bottom-nav {
-    border-top-width: 1px
-  }
-}
+ 
 
 .mj-bottom-nav ul {
   position: relative;
@@ -423,8 +381,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 {
   display: inline-block;
   padding: 0 3px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -435,8 +391,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 .tag,
 .btn-3-1 .btn {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -500,8 +454,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .wrapper-form .form-item textarea,
 .wrapper-form .form-item input {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   line-height: 18px;
@@ -527,8 +479,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 {
   display: inline-block;
   padding: 0 3px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -539,8 +489,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 .tag,
 .btn-3-1 .btn {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -591,19 +539,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .popout-box .header {
   position: relative;
   margin-bottom: 10px;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-bottom: 2px solid #e5e5e5
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .popout-box .header {
-    border-bottom-width: 1px
-  }
-}
+ 
 
 .popout-box .header h2 {
   margin-bottom: 16px;
@@ -681,8 +620,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   padding: 15px 0 15px 15px;
   margin-bottom: 0;
   background-color: #FC5050;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -744,8 +681,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .order-related .uc-order {
   width: 100%;
   padding: 10px 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff
 }
@@ -761,10 +696,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .order-related .uc-order.list-horizon>li {
   display: inline-block;
   width: 20%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  float: left
 }
 
 .order-related .uc-order.list-horizon .link {
@@ -835,14 +767,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
   background-repeat: no-repeat;
   background-size: 18px 364px
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .order-related .block.block-list.list-vertical>a.link::before {
-    background-image: url("https://img.yzcdn.cn/public_files/2016/10/20/e43d97b09839ed5ed872d5c5e6bc9400.png")
-  }
-}
+ 
 
 .order-related .block.block-list.list-vertical>a.link.ico-order::before {
   background-position: 4px 3px
@@ -903,9 +828,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   height: 7px;
   border-top: 2px solid #cbc9cc;
   border-right: 2px solid #cbc9cc;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 16px;
   right: 12px
@@ -929,9 +851,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   height: 7px;
   border-top: 2px solid #cbc9cc;
   border-right: 2px solid #cbc9cc;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 50%;
   margin-top: -4px;
