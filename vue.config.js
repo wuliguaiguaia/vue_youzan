@@ -9,10 +9,10 @@ module.exports  = {
         resolve:{
             alias:{
                 "components":"@/components",
+                "page":"@/page",
                 "css":"@/common/css",
                 "js":"@/common/js"
             }
-
         }
     },
     css:{

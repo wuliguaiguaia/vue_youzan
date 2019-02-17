@@ -1,20 +1,15 @@
 <template>
   <div id="app">
-      xxxxx
+    <div class="wrapper"> 
+      xxxxxa
       <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "app",
-  data() {
-    return {};
-  },
-  components: {
-     
-  },
- 
+  name: "app"
 };
 </script>
 
