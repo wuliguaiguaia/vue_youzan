@@ -21,17 +21,24 @@ export default {
       require: true
     }
   },
-  created() {
-  },
+  created() {},
   mounted() {
-    this.$nextTick(()=>{
+     this.init();
+  },
+  methods:{
+    init(){
       new Swiper(".swiper-container", {
         loop: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false
+        },
         pagination: {
-          el: ".swiper-pagination"
+          el: ".swiper-pagination",
+          clickable: true
         }
       });
-    })
+    }
   }
 };
 </script>
