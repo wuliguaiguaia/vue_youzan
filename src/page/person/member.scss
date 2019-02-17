@@ -696,9 +696,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  background: url(./../../assets/avator.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover
+  background-size: cover;
 }
 
 .user-infos .desc {

@@ -123,7 +123,7 @@
                       </div>
                       <div class="name-card clearfix">
                         <a
-                          href="https://h5.youzan.com/v2/showcase/goods?alias=36co1k2m80lmu"
+                          href=""
                           class="thumb js-goods-link"
                         >
                           <img
@@ -135,7 +135,7 @@
                         </a>
                         <div class="detail">
                           <a
-                            href="https://h5.youzan.com/v2/showcase/goods?alias=36co1k2m80lmu"
+                            href="#"
                             class="js-goods-link"
                           >
                             <h3 class="title js-ellipsis">
@@ -207,7 +207,7 @@
           class="ft-copyright"
           style="background-image: url(https://img.yzcdn.cn/upload_files/2016/11/15/147918630760182374.png);"
         >
-          <a class="yz-logo" href="https://www.youzan.com/?from_source=support_logo">有赞提供技术支持</a>
+          <a class="yz-logo" href="">有赞提供技术支持</a>
         </div>
       </div>
     </div>
@@ -500,12 +500,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url("./cart_base.scss");
-@import url("./cart_trade.scss");
 @import url("./cart.scss");
-.content {
-}
-
 .block-item-cart {
   .name-card {
     .num.static {

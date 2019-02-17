@@ -3,9 +3,7 @@
     <div class="content">
       <div class="user-infos">
         <div class="pull-left avatar">
-          <div class="img">
-            <img src="./../../assets/avator.jpg" alt="">
-          </div>
+          <div class="img"></div>
         </div>
         <div class="pull-left desc">
           <p>Alias

@@ -32,9 +32,6 @@
 .account-form label {
   display: inline-block;
   vertical-align: top;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale
 }
 
 .account-form input,
@@ -66,13 +63,7 @@
 .account-form textarea {
   resize: none
 }
-
-.account-form input[type="search"],
-.account-form input[type="search"]::-webkit-search-cancel-button,
-.account-form input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-  -moz-appearance: none
-}
+ 
 
 .account-form::-ms-clear {
   display: none
@@ -296,8 +287,6 @@
 .btn-3-1 {
   display: inline-block;
   padding: 0 3px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -308,8 +297,6 @@
 .btn-3-1 .tag,
 .btn-3-1 .btn {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -373,8 +360,6 @@
   padding-right: 10px;
   list-style: none;
   font-size: 14px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -431,8 +416,6 @@
 
 .form .block-item textarea {
   height: 50px;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   resize: none
 }
@@ -447,22 +430,12 @@
   font-size: 14px;
   background-color: #fff;
   overflow: visible;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-top: 2px solid #e5e5e5;
   border-bottom: 2px solid #e5e5e5
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  .tabber {
-    border-top-width: 1px;
-    border-bottom-width: 1px
-  }
-}
-
+ 
 .tabber button,
 .tabber a {
   float: left;
@@ -559,14 +532,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .block-list-cart .block-item-cart.ajust {
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out
 }
 
 .block-list-cart .block-item-cart .ajust {
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out
 }
 
@@ -775,16 +744,12 @@ only screen and (min-device-pixel-ratio: 1.5) {
   height: 50px;
   margin-top: 0;
   min-width: 75px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 0px
 }
 
 .bottom-fix .bottom-cart button[disabled] {
   color: #999 !important;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-bbb.png") 2 stretch !important;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-bbb.png") 2 stretch !important;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-bbb.png") 2 stretch !important;
   background-color: #f1f1f1 !important
 }
@@ -830,8 +795,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .block-item-cart.editing .delete-btn {
-  -webkit-transform: translate3d(-60px, 0, 0);
-  -moz-transform: translate3d(-60px, 0, 0);
   transform: translate3d(-60px, 0, 0)
 }
 
@@ -861,14 +824,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .tabber.tabber-double-11 a {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 0px none;
   color: #999;
   display: block;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-bottom: 2px solid #e5e5e5
 }
@@ -885,8 +844,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
   color: #F15A0C;
   border-top: 0px none;
   border-bottom: 2px solid #F15A0C;
-  -webkit-border-image: initial;
-  -moz-border-image: initial;
   border-image: initial
 }
 
@@ -991,8 +948,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 {
   display: inline-block;
   padding: 0 3px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -1003,8 +958,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 .tag,
 .btn-3-1 .btn {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -1068,8 +1021,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .wrapper-form .form-item textarea,
 .wrapper-form .form-item input {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   line-height: 18px;
@@ -1095,8 +1046,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 {
   display: inline-block;
   padding: 0 3px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -1107,8 +1056,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .btn-3-1 .tag,
 .btn-3-1 .btn {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -1159,8 +1106,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .popout-box .header {
   position: relative;
   margin-bottom: 10px;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-bottom: 2px solid #e5e5e5
 }
@@ -1245,8 +1190,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .block.block-order .header {
   height: 37px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 10px;
   padding-left: 10px;
@@ -1330,8 +1273,6 @@ body.has-bottom-nav {
   bottom: 0;
   background-color: #fff;
   z-index: 999;
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-top: 2px solid #e5e5e5
 }
@@ -1638,8 +1579,6 @@ body.body-fixed-bottom {
 }
 
 .go-pay-shop-list .shop {
-  -webkit-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
-  -moz-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line-2.png") 2 stretch;
   border-top: 2px solid #e5e5e5;
   padding: 15px

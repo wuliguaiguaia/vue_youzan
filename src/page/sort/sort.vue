@@ -299,8 +299,6 @@ export default {
   color: #333;
   font-size: 14px;
   overflow: visible;
-  -o-border-image: url(https://b.yzcdn.cn/v2/image/wap/border-line-2.png) 2
-    stretch;
   border-image: url(https://b.yzcdn.cn/v2/image/wap/border-line-2.png) 2 stretch;
   border-bottom: 1px solid #e5e5e5;
   z-index: 998;
@@ -376,8 +374,6 @@ export default {
   padding: 20px 10px;
   background: #f4f4f4;
   border-bottom: 1px solid #fff;
-  -o-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line.png") 2
-    stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line.png") 2 stretch;
   border-bottom: 2px solid #e5e5e5;
 }
@@ -515,20 +511,9 @@ export default {
   font-size: 12px;
   padding: 3px 20px 0 0;
   box-sizing: border-box;
-  -o-border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line.png") 2
-    stretch;
   border-image: url("https://b.yzcdn.cn/v2/image/wap/border-line.png") 2 stretch;
   border-bottom: 2px solid #e5e5e5;
 }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min--moz-device-pixel-ratio: 1.5),
-  only screen and (min-device-pixel-ratio: 1.5) {
-  .hot-goods .goods-item .detail {
-    border-bottom-width: 1px;
-  }
-}
-
 .hot-goods .goods-item .title {
   line-height: 1.5;
   margin-bottom: 14px;

@@ -1,17 +1,17 @@
 import Vue from "vue";
 import Router from 'vue-router';
 
-import index from "@/page/index/index";
-import sort from "@/page/sort/sort";
-import shopcar from "@/page/shopcar/shopcar";
-import person from "@/page/person/person";
-import search from "@/page/search/search";
-import goodDetail from "@/page/goodDetail/goodDetail";
-import shopDetail from "@/page/shopDetail/shopDetail";
-import address from "@/page/address/address";
-import all from "@/page/address/all";
-import edit from "@/page/address/edit";
-import pay from "@/page/pay/pay";
+import index from "page/index/index";
+import sort from "page/sort/sort";
+import shopcar from "page/shopcar/shopcar";
+import person from "page/person/person";
+import search from "page/search/search";
+import goodDetail from "page/goodDetail/goodDetail";
+import shopDetail from "page/shopDetail/shopDetail";
+import address from "page/address/address";
+import all from "page/address/all";
+import edit from "page/address/edit";
+import pay from "page/pay/pay";
 
 Vue.use(Router);
 
