@@ -129,8 +129,8 @@
   </div>
 </template>
 <script>
-import searchForm from "@/components/searchForm";
-import foot from "@/components/foot";
+import searchForm from "components/searchForm";
+import foot from "components/foot";
 import axios from "axios";
 import URL from "js/api.js";
 import mixin from "js/mixin.js";

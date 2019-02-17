@@ -35,9 +35,6 @@ export default {
     return {
       myTitle:this.title
     }
-  },
-  created(){ 
-       console.dir(this.$parent.$data) 
   }
 };
 </script>

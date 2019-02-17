@@ -87,7 +87,7 @@
 </div>
 </template>
 <script>
-import foot from "@/components/foot";
+import foot from "components/foot";
 import "./member_base.scss";
 import "./member.scss";
 import bus from "js/bus";

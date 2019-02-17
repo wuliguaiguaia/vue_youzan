@@ -1,18 +1,28 @@
 <template>
   <div id="app">
-    <div class=""> 
-      xxxxxa
-      <router-view></router-view>
-    </div>
-    <foot></foot>
+      <index v-if="flag"></index>
+      <router-view v-else></router-view>
   </div>
 </template>
 
 <script>
-import foot from "components/foot";
+import index from "page/index/index";
 export default {
   name: "app",
-  components:{foot}
+  data(){
+    return {
+      flag:true
+    }
+  },
+  components:{index},
+  watch:{
+    '$route'(val,oval){
+      if(val.path !== oval.path){
+        this.flag = false;
+      }
+      
+    }
+  }
 };
 </script>
 
