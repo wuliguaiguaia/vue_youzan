@@ -6,8 +6,6 @@
   </div>
 </template>
 <script>
-import index from "@/page/index/index";
-import foot from "@/components/foot";
 export default {
   name: "app",
   data(){
@@ -16,16 +14,6 @@ export default {
       showFoot:true
     }
   },
-  watch:{
-    // <index></index>
-    // <foot v-show="showFoot"></foot>
-    // '$route'(val){
-    //   if(val.name===("addressAll" ||"addressEdit" || "shopcar" || "goodDetail" || "shopDetail" || "search" || "pay")){
-    //     this.showFoot = false;
-    //   }
-    // }
-  },
-  components:{foot,index}
 };
 </script>
 

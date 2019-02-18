@@ -48,7 +48,7 @@
         >
           <li v-for="item in hotLists" :key="item.id">
             <div class="goods-item">
-              <a href="" @click="$router.push({name:'goodDetail',params:{id:item.id}})">
+              <a href="#" @click="$router.push({name:'goodDetail',params:{id:item.id}})">
                 <div class="thumb img-box">
                   <img class="fadeIn" :src="item.img">
                 </div>
