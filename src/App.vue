@@ -3,11 +3,10 @@
 <template>
   <div id="app">
       <router-view v-if="flag"></router-view>
-      <index v-else></index>
-      <!-- <router-view v-if="flag"></router-view>
       <div class="mask" v-else >
-        <button @click="flag=true">点击进入商城 ></button>
-      </div> -->
+        <button @click="go">点击进入商城 ></button>
+      </div>
+      <!-- <router-view></router-view> -->
   </div>
 </template>
 <script>
@@ -20,10 +19,11 @@ export default {
     }
   },
   components:{index},
-   created(){
-     setTimeout(() => {
-        this.flag = true
-     },0);
+  methods:{
+    go(){
+      console.log('mmm');
+      this.flag = true;
+    }
   }
 };
 </script>
