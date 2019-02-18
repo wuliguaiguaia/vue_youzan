@@ -3,6 +3,8 @@
 
 # [项目预览](https://wuliguaiguaia.github.io/vue_youzan/dist/index.html)
 
+# [easy-mock 接口](https://easy-mock.com/project/5c6545ef1287da4cf0569501)
+
 # 技能树
 - 使用语言：vue + vue-cli3 + axios + vuex + vue-router + sass + eslint + es6
 - 使用 vue-cli3 进行原型开发并配置 vue.config.js

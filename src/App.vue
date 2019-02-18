@@ -2,29 +2,30 @@
 
 <template>
   <div id="app">
-      <router-view v-if="flag"></router-view>
-      <div class="mask" v-else >
-        <button @click="go">点击进入商城 ></button>
-      </div>
-      <!-- <router-view></router-view> -->
+      <router-view></router-view>
   </div>
 </template>
 <script>
 import index from "@/page/index/index";
+import foot from "@/components/foot";
 export default {
   name: "app",
   data(){
     return {
-      flag:false
+      flag:false,
+      showFoot:true
     }
   },
-  components:{index},
-  methods:{
-    go(){
-      console.log('mmm');
-      this.flag = true;
-    }
-  }
+  watch:{
+    // <index></index>
+    // <foot v-show="showFoot"></foot>
+    // '$route'(val){
+    //   if(val.name===("addressAll" ||"addressEdit" || "shopcar" || "goodDetail" || "shopDetail" || "search" || "pay")){
+    //     this.showFoot = false;
+    //   }
+    // }
+  },
+  components:{foot,index}
 };
 </script>
 
