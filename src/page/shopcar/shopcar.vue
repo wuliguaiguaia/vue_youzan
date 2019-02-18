@@ -244,7 +244,6 @@
 // import URL from "js/api.js";
 // import axios from "axios";
 // import _fetch from "js/fetch.js";
-import Vue from "vue";
 import mixin from "js/mixin";
 import "velocity-animate/velocity.ui.min.js";
 import _cart from "js/cartService.js";
@@ -267,6 +266,7 @@ export default {
           return shop.shopId == this.editingShop.shopId;
         });
       }
+      return
     },
     selectList() {
       if (this.cartList && this.cartList.length) {
@@ -280,6 +280,7 @@ export default {
         });
         return arr;
       }
+      return [];
     },
     removeList: {
       get() {
@@ -292,8 +293,8 @@ export default {
           })
           return arr;
        } 
-      },
-      set(val)  {}
+       return []
+      }
     },
     canPay() {
       return (this.totalPrice>0 && !this.editingShop) ? true:false;
@@ -316,6 +317,7 @@ export default {
         if (this.cartList && this.cartList.length) {
           return this.editingShop.removeChecked;
         }
+        return 
       },
       set(val) {
         this.editingShop.removeChecked = val;
@@ -360,8 +362,6 @@ export default {
      });
   },
   // 有加就有减，有true就有false
-  watch: {
-  },
   methods: {
     goTopay() {
       if (this.canPay && this.totalPrice > 0) {
@@ -411,7 +411,6 @@ export default {
           if (ids.length === this.editingShop.goodsList.length) {
             // 全删
             this.cartList.splice(this.editingShopIndex, 1);
-            console.log("all delete");
           } else {
             //
             this.cartList.forEach((shop, si) => {

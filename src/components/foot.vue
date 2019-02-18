@@ -29,7 +29,7 @@
   </div>
 </template>
 <script>
-import bus from "js/bus"
+// import bus from "js/bus"
 export default {
   props:['title'],
   data(){
@@ -38,7 +38,7 @@ export default {
     }
   },
   created(){ 
-       console.dir(this.$parent.$data) 
+      //  console.dir(this.$parent.$data) 
   }
 };
 </script>

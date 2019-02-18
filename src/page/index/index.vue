@@ -77,7 +77,7 @@ import Vue from "vue";
 import { InfiniteScroll } from "mint-ui";
 Vue.use(InfiniteScroll);
 
-import swiper from "components/swiper";
+import swiper from "@/components/swiper";
 
 export default {
   data() {

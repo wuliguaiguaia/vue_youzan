@@ -591,7 +591,7 @@
 <script>
 import axios from "axios";
 import URL from "js/api.js";
-import swiper from "components/swiper";
+import swiper from "@/components/swiper";
 
 export default {
   data() {

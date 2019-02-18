@@ -162,7 +162,6 @@ export default {
       });
     },
     toggleNav(id) {
-      console.log(id)
       this.checkId = id;
       if (id > 0) {
         this.getSubData(id);

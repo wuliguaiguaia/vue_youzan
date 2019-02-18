@@ -8,8 +8,8 @@ module.exports  = {
     configureWebpack:{
         resolve:{
             alias:{
-                "components":"@/components",
-                "page":"@/page",
+                // "components":"@/components",
+                // "page":"@/page",
                 "css":"@/common/css",
                 "js":"@/common/js"
             }

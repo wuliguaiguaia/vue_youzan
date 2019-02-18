@@ -22,9 +22,9 @@
   </div>
 </template>
 <script>
-import _address from "js/addressService";
-import axios from "axios";
-import addressJson from "@/assets/address.json";
+// import _address from "js/addressService";
+// import axios from "axios";
+// import addressJson from "@/assets/address.json";
 export default {
   data() {
     return {
@@ -50,8 +50,6 @@ export default {
       let index = this.addresslists.findIndex(item => {
         return item.value == list.provinceValue;
       });
-      console.log(this.addresslists[index].label);
-      
       return this.addresslists[index].label;
     },
     getCity(list){

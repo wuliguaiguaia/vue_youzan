@@ -91,10 +91,8 @@ export default {
       this.allLoaded = false;
       this.showId = val.query.showId;
       if (this.showId == 1) {
-        console.log('shop');
         this.getShops();
       } else if(this.showId === 0){
-        console.log('good');
         this.getGoods();
       }
     },
@@ -136,7 +134,6 @@ export default {
           }
           this.loading = false;
           this.pageNum++;
-          console.log(this.shopLists);
         });
     },
     getGoods() {
@@ -163,8 +160,6 @@ export default {
           }
           this.loading = false;
           this.pageNum++;
-          console.log(this.goodLists);
-          
         });
     }
   }

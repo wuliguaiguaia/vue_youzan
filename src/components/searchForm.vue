@@ -90,8 +90,6 @@ export default {
       // this.focus = false;
     },
     showNavBtn() {
-      console.log(this.showNavButton);
-
       this.showNavButton = true;
     },
     submit(e) {
@@ -134,7 +132,6 @@ export default {
       }
     },
     goSort() {
-      console.log("go sort");
       this.searchValue = "";
       this.$router.push({ name: "sort" });
     }

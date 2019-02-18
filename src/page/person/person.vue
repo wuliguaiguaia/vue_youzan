@@ -85,8 +85,8 @@
 </div>
 </template>
 <script>
-import foot from "components/foot";
-import bus from "js/bus";
+import foot from "@/components/foot";
+// import bus from "js/bus";
 export default {
     data(){
       return{

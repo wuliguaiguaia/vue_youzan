@@ -2,27 +2,29 @@
 
 <template>
   <div id="app">
-      <index v-if="flag"></index>
-      <router-view v-else></router-view>
+     xxxx 下面是router-view....
+      <router-view></router-view>
+      <!-- <router-view v-if="flag"></router-view>
+      <div class="mask" v-else >
+        <button @click="flag=true">点击进入商城 ></button>
+      </div> -->
   </div>
 </template>
-
 <script>
-import index from "page/index/index";
+// import index from "@/page/index/index";
 export default {
   name: "app",
   data(){
     return {
-      flag:true
+      // flag:false
     }
   },
-  components:{index},
-  watch:{
-    '$route'(val,oval){
-      console.log(1)
-      this.flag = false;
-    }
-  }
+  // watch:{
+  //   "$route"(){
+  //     this.flag = true
+  //   }
+  // },
+  // components:{index},
 };
 </script>
 
@@ -33,5 +35,20 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.mask{
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button{
+        color: #fff;
+    border: none;
+    padding: 10px 15px;
+    background: #585454;
+    font-size: 14px;
+  }
 }
 </style>
