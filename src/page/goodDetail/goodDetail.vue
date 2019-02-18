@@ -128,17 +128,17 @@
               </div>
               <div class="stick-bottom-btns">
                 <!-- 尚未开售 -->
-                <div class="btn-cart">
-                  <a class="js-add-cart" @click="chooseSku(2)">加入购物车</a>
+                <div class="btn-cart" @click="chooseSku(2)">
+                  <a class="js-add-cart" >加入购物车</a>
                 </div>
-                <div class="btn-buy">
-                  <a class="js-buy-it" @click="chooseSku(3)">立即购买</a>
+                <div class="btn-buy"  @click="chooseSku(3)">
+                  <a class="js-buy-it">立即购买</a>
                 </div>
               </div>
             </div>
             <div id="right-icon" class="js-right-icon">
               <div class="js-right-icon-container right-icon-container clearfix">
-                <a id="global-cart" href class="icon new s0" >
+                <a id="global-cart" href class="icon new s0">
                   <p class="icon-img" @click="$router.push({name:'shopcar'})"></p>
                 </a>
                 <a class="js-show-more-btn icon show-more-btn"></a>
@@ -192,11 +192,7 @@
                       data-goods-id="342718779"
                       title="【米饭版和牛肉版】小龙坎方便火锅 只要一瓶矿泉水就能吃的地道四川火锅"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="0"
-                        data-height="0"
-                      >
+                      <div class="photo-block" data-width="0" data-height="0">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/04/FidWCdQxsEMojh63W8GK016mwPAo.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -221,11 +217,7 @@
                       data-goods-id="342676309"
                       title="寻找田野|绍兴黄酒 良宵 2012年古法手工原浆半干黄酒 礼盒装 送礼佳品"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="750"
-                        data-height="750"
-                      >
+                      <div class="photo-block" data-width="750" data-height="750">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/04/Fq1yXSOb84HmElu-Qgrm65EmAeIz.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -250,11 +242,7 @@
                       data-goods-id="342108270"
                       title="寻找田野|新疆库车小白杏 400g*4盒  长在树上的白色蜂蜜"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="800"
-                        data-height="800"
-                      >
+                      <div class="photo-block" data-width="800" data-height="800">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FhxXtAXp1pEauruMKjw2QZCuCjbQ.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -279,11 +267,7 @@
                       data-goods-id="341654863"
                       title="寻找田野|无锡阳山水蜜桃 可以吸着吃的水蜜桃 单果200g礼盒装顺丰直达"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="800"
-                        data-height="800"
-                      >
+                      <div class="photo-block" data-width="800" data-height="800">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FvDOdNLYTkgPg8_LC16vBTKUkpDp.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -308,11 +292,7 @@
                       data-goods-id="340716475"
                       title="认养一头牛 安全无添加的好牛奶/酸奶"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="0"
-                        data-height="0"
-                      >
+                      <div class="photo-block" data-width="0" data-height="0">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/06/14/FlAhOUgjHk6uwBhTmMW95hHPlVJh.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -337,11 +317,7 @@
                       data-goods-id="339552343"
                       title="新西兰进口佳沛绿奇异果  多规格包邮 单果90g--110g"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="0"
-                        data-height="0"
-                      >
+                      <div class="photo-block" data-width="0" data-height="0">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/06/02/FlFNqGPuFKS_DlTAoJTcX9VEDv_4.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -366,11 +342,7 @@
                       data-goods-id="339441682"
                       title="四杰克系列葡萄酒 五星酒庄出品 750ML"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="800"
-                        data-height="800"
-                      >
+                      <div class="photo-block" data-width="800" data-height="800">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/Fh2E3KeB4j0rAOdILQAC52F_B4hb.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -395,11 +367,7 @@
                       data-goods-id="339414742"
                       title="寻找田野|墨西哥进口牛油果 单果140g--180g  6个装 包邮"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="1080"
-                        data-height="1080"
-                      >
+                      <div class="photo-block" data-width="1080" data-height="1080">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FuDDKJmd-yfvmaDUfk-PO-yETRwZ.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -424,11 +392,7 @@
                       data-goods-id="338917983"
                       title="花园系列葡萄酒 五星酒庄出品 750ML"
                     >
-                      <div
-                        class="photo-block"
-                        data-width="800"
-                        data-height="800"
-                      >
+                      <div class="photo-block" data-width="800" data-height="800">
                         <img
                           class="goods-photo js-goods-lazy"
                           data-src="https://img.yzcdn.cn/upload_files/2017/07/12/FoCENpKklzLyD5VpWVEtS0_jbGc8.jpg?imageView2/2/w/280/h/280/q/75/format/webp"
@@ -448,17 +412,14 @@
                 </ul>
               </div>
               <p class="center">
-                <a
-                  href
-                  class="center btn btn-white btn-xsmall font-size-14"
-                >进店逛逛&gt;</a>
+                <a href class="center btn btn-white btn-xsmall font-size-14">进店逛逛&gt;</a>
               </p>
             </div>
           </div>
           <div id="shop-nav"></div>
         </div>
       </div>
-      <div class="js-footer" >
+      <div class="js-footer">
         <div>
           <div class="footer">
             <div class="copyright">
@@ -501,8 +462,7 @@
       </transition>
       <!-- sku 1 -->
       <transition name="skutoggle" tag="div">
-        <div
-          v-show="showSku"
+        <div  v-show="showSku"
           class="sku-layout sku-box-shadow popup"
           style="overflow: hidden; position: fixed; z-index: 1000; background: white; bottom: 0px;width:100vw;"
         >
@@ -661,7 +621,9 @@ export default {
         this.isShowAddcarNotice = false;
       }, 500);
     },
-    buyGoods() {}
+    buyGoods() {
+      this.$router.push({name:"pay"})
+    }
   }
 };
 </script>
@@ -684,15 +646,32 @@ export default {
 }
 #global-cart.new .icon-img {
   position: fixed;
-    bottom: 66px;
-    right: 22px;
-    z-index: 999;
+  bottom: 66px;
+  right: 22px;
+  z-index: 999;
   background-position: 0 0;
   background-image: url(https://b.yzcdn.cn/v2/image/yzapp/h5/cart1@2x.png);
   background-size: 100% 100%;
   height: 50px;
   width: 50px;
 }
- 
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+  opacity: 1;
+}
+.fade-enter, .fade-leave-to{
+  opacity: 0;
+}
+.skutoggle-enter-active, .skutoggle-leave-active {
+  transition: transform .5s;
+  transform: translateY(0)
+}
+.skutoggle-enter, .skutoggle-leave-to{
+   transform: translateY(100%)
+}
+// .skutoggle-enter-to,.skutoggle-leave{
+//   transform: translateY(100%)
+// }
  
 </style>

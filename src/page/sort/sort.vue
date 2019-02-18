@@ -528,11 +528,14 @@ export default {
 .hot-goods .goods-item .price {
   display: inline-block;
   margin-right: 20px;
+  float: left;
 }
 
 .hot-goods .goods-item .recommend {
   color: silver;
   display: inline-block;
+      float: left;
+    margin-top: 2px;
 }
 
 .hot-title {
@@ -580,9 +583,9 @@ export default {
 }
 
 .shop-title {
-  font-size: 12px;
-  margin-bottom: 10px;
-  position: relative;
+    font-size: 12px;
+    position: relative;
+    text-align: left;
 }
 
 .shop-title .badge {

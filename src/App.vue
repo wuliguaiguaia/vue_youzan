@@ -2,8 +2,8 @@
 
 <template>
   <div id="app">
-     xxxx 下面是router-view....
-      <router-view></router-view>
+      <router-view v-if="flag"></router-view>
+      <index v-else></index>
       <!-- <router-view v-if="flag"></router-view>
       <div class="mask" v-else >
         <button @click="flag=true">点击进入商城 ></button>
@@ -11,20 +11,20 @@
   </div>
 </template>
 <script>
-// import index from "@/page/index/index";
+import index from "@/page/index/index";
 export default {
   name: "app",
   data(){
     return {
-      // flag:false
+      flag:false
     }
   },
-  // watch:{
-  //   "$route"(){
-  //     this.flag = true
-  //   }
-  // },
-  // components:{index},
+  components:{index},
+   created(){
+     setTimeout(() => {
+        this.flag = true
+     },0);
+  }
 };
 </script>
 

@@ -15,17 +15,28 @@
 
 # 图示
 - 首页
+
+  <img src="./zother/page1.jpg" width=440>
 - 分类页
+  <img src="./zother/page2.jpg" width=440>
 - 购物车
+  <img src="./zother/car.jpg" width=440>
 - 个人页
+  <img src="./zother/page4.jpg" width=440>
 - 商品页1
+  <img src="./zother/good1.jpg" width=440>
 - 商品页2
+  <img src="./zother/good2.jpg" width=440>
 - 商品页3
-- 商品页4
+  <img src="./zother/good3.jpg" width=440>
 - 搜索店铺页
+  <img src="./zother/search-2.jpg" width=440>
 - 搜索商品页
+  <img src="./zother/search.jpg" width=440>
 - 地址页1
+  <img src="./zother/ad1.jpg" width=440>
 - 地址页2
+  <img src="./zother/ad2.jpg" width=440>
 
 # 项目相关博客整理：
 [Vuex 状态管理与实例分析](https://zhuanlan.zhihu.com/p/54833403)
@@ -37,8 +48,6 @@
 [VUE响应式原理](https://zhuanlan.zhihu.com/p/54519872)
 
 [VUE实现购物车三级联动](https://zhuanlan.zhihu.com/p/54503426)
-
-[VUE v-cloak解读页面加载时闪烁的问题](https://zhuanlan.zhihu.com/p/54398090)
 
 [VUE中@scroll失败的真相](https://zhuanlan.zhihu.com/p/54287596)
 
