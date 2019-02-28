@@ -8,7 +8,7 @@
         </a>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-pagination" v-show="load"></div>
   </div>
 </template>
 <script>
@@ -24,6 +24,15 @@ export default {
   created() {},
   mounted() {
      this.init();
+  },
+  computed:{
+    load(){
+      if(this.lists.length>0){
+        return true
+      }else{
+        return false;
+      }
+    }
   },
   methods:{
     init(){
@@ -46,6 +55,7 @@ export default {
 <style lang="scss" scoped>
 .swiper-container {
   width: 100vw;
+  height:100%;
 }
 .swiper-slide img {
   width: 100%;

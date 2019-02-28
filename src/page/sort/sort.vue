@@ -35,6 +35,7 @@
                   </div>
                   <ul>
                     <li v-for="(good,index) in rankData.hotGoods" :key="good.id" class="goods-item">
+                      <!-- <hotItem :good="good" :index="index"  ></hotItem> -->
                       <a @click="$router.push({path: '/goodDetail/:id',params:{id:good.id}})">
                         <div class="thumb badge center-img">
                           <img :src="good.img">
@@ -121,15 +122,18 @@
         </div>
       </div>
     </div>
+    <loading></loading>
     <foot></foot>
   </div>
 </template>
 <script>
+import loading from "@/components/loading";
 import searchForm from "@/components/searchForm";
 import foot from "@/components/foot";
 import axios from "axios";
 import URL from "js/api.js";
 import mixin from "js/mixin.js";
+// import hotItem from "@/components/hot-item";
 export default {
   data() {
     return {
@@ -140,7 +144,7 @@ export default {
       keyword: ""
     };
   },
-  components: { foot, searchForm },
+  components: { foot, searchForm ,loading},
   created() {
     this.getTopLists();
     this.getRankData();

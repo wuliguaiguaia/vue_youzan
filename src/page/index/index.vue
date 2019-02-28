@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <div class="content">
-      <div>
+      <div class="index-swiper">
+        <loading v-show="bannerloading" class="bannerLoading"></loading>
         <swiper :lists="bannerLists" v-if="bannerLists"></swiper>
       </div>
       <div class="section-title">优店推荐</div>
@@ -70,7 +71,7 @@
 </template>
 <script>
 import foot from "@/components/foot";
-
+import loading from "@/components/loading";
 import axios from "axios";
 import URL from "js/api.js";
 import Vue from "vue";
@@ -90,9 +91,19 @@ export default {
       bannerLists: null
     };
   },
+  computed: {
+    bannerloading() {
+      if (this.bannerLists && this.bannerLists.length > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  },
   components: {
     swiper,
-    foot
+    foot,
+    loading
   },
   created() {
     this.getBannerLists();
@@ -129,6 +140,16 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.index-swiper {
+  position:relative;
+  min-height: 180px;
+  .bannerLoading{
+    position: absolute;
+    top:50px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+}
 .goods-item {
   background: #fff;
   .thumb {
